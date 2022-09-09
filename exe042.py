@@ -11,7 +11,5 @@ if a<b+c and b<c+a and c<b+a:
         print(f'{a}, {b} e {c} formam um Triangulo Escaleno')
     else:
         print(f'{a},{b} e {c} não formam um triangulo')
-elif a ==" " or b ==" " or c ==" ":
-    print('Valor não informado')
 else:
     print(f'{a}, {b} e {c} não formam um triangulo')
