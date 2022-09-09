@@ -1,7 +1,7 @@
 from datetime import date
-ano = int(input('em qual ano você nasceu? '))
-mes = int(input('que mes?: '))
-dia = int(input('que dia?: '))
+ano = int(input('Ano de nascimento? '))
+mes = int(input('mês? '))
+dia = int(input('dia? '))
 
 def idade1(Nascimento):
     dias_no_ano = 365.2425
@@ -17,3 +17,4 @@ elif atual < 17:
     print(f'Não foi dessa vez ainda faltam {diferenca*-1} anos pra você')
 else:
     print(f'Você está acima da idade de alistamento com uma diferença de {diferenca} anos')
+    
