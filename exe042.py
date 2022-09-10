@@ -1,15 +1,13 @@
 print("informe os dados solicitados a seguir.")
-a=int(input("Informe o valor do ponto a:  "))
-b=int(int(input('Informe o valor do ponto b:  ')))
-c=int(input("informe o valor do ponto c:  "))
+a=float(input("Informe o valor do ponto a:  "))
+b=float(input('Informe o valor do ponto b:  '))
+c=float(input("informe o valor do ponto c:  "))
 if a<b+c and b<c+a and c<b+a:
     if a==b and b==c:
         print(f'{a}, {b} e {c} formam um Triangulo Equilatero')
-    elif a==b!=c or b==c!=a:
-        print(f'{a}, {b} e {c} formam um Triangulo Isoceles')
-    elif a!=b!=c:
+    elif a!=b!=c!=a:
         print(f'{a}, {b} e {c} formam um Triangulo Escaleno')
     else:
-        print(f'{a},{b} e {c} não formam um triangulo')
+        print(f'{a}, {b} e {c} formam um Triangulo Isoceles')
 else:
     print(f'{a}, {b} e {c} não formam um triangulo')
