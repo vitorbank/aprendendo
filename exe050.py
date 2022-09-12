@@ -1,8 +1,10 @@
 soma=0
-for c in range(1,6):
+cont=0
+for c in range(1,7):
     n=int(input("Insira um numero inteiro: "))
     if n%2==0:
         soma+=n
-        print(soma)
+        cont=cont+1
     if n%2!=0:
         print("somente numeros pares")
+print(f"{cont} numeros  com soma de {soma}")
