@@ -1,3 +1,5 @@
+def repete():
+    n=int(input("Numero a ser fatorado: "))
 n=int(input("Numero a ser fatorado: "))
 fat=1
 i=2
